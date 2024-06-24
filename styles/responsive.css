@@ -10,7 +10,7 @@
 
 .contenedor1
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 348%;
     height: 180px;
     display: flex;
@@ -20,8 +20,8 @@
 
 .divtitulo
 {
-    width: 50%;
-    border: 1px solid black;
+    width: 81%;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -36,13 +36,14 @@ h1
 
 .divlogo
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     height: 100%;
 }
 .imglogo
 {
-    width: 163px;
+    width: 165px;
+    height: 165px;
     margin-top: 6px;
     margin-left: 3px;
     border-radius: 100%;
@@ -51,17 +52,17 @@ h1
 /* ---------------------------------------------------MAIN--------------------------------------------------------------- */
 .contenedorMain
 {
-    border: 1px solid black;
-    width: 100%;
-    height: 700px;
+    /* border: 1px solid black; */
+    width: 347%;
+    height: 1393px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .divNav
 {
-    border: 1px solid black;
-    width: 20%;
-    height: 100%;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 17%;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -85,35 +86,36 @@ a[href="#"]
 
 .divAutos
 {
-    border: 1px solid black;
-    width: 80%;
-    height: 100%;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: blue;
+    flex-wrap: wrap;
 }
 .auto1
 {
-    border: 1px solid black;
-    width: 350px;
+    /* border: 1px solid black; */
+    width: 489px;
     height: 500px;
     background-color: white;
     border-radius: 30px;
 }
 .auto2
 {
-    border: 1px solid black;
-    width: 350px;
+    /* border: 1px solid black; */
+    width: 489px;
     height: 500px;
     background-color: white;
     border-radius: 30px;
 }
 .auto3
 {
-    border: 1px solid black;  
-    width: 350px;
+    /* border: 1px solid black;   */
+    width: 489px;
     height: 500px; 
     background-color: white;
     border-radius: 30px;
@@ -122,13 +124,13 @@ a[href="#"]
 /* ------------------------------------------------------------------------------------------------------------- */
 .subdiv1_1
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 40%;
 }
 .subdiv1_2
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 60%;
 }
@@ -136,26 +138,26 @@ a[href="#"]
 /* ------------------------------------------------------------------------------------------------------------- */
 .subdiv2_1
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 40%;
 }
 .subdiv2_2
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 60%;
 }
 /* ------------------------------------------------------------------------------------------------------------- */
 .subdiv3_1
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 40%;
 }
 .subdiv3_2
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 60%;
 }
@@ -184,6 +186,8 @@ img
     border-bottom-left-radius: 0; 
     border-bottom-right-radius: 0; 
     display: block; 
+    width: 489px;
+    height: 198px;
 }
 
 /* ------------------------------------------------FOOTER------------------------------------------------------------------ */
@@ -191,10 +195,11 @@ img
 .divfooter
 {
     border: 1px solid black;
-    width: 100%;
+    width: 347%;
     height: 150px;
     display: flex;
     flex-direction: row;
+    margin-top: -44px;
 }
 
 .subdiv1
